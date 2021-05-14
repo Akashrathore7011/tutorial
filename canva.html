@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id= "canva" width="320px" height="120px" style="border: 2px solid green; " >
+    </canvas>
+    <script>
+    //    window.onload=  function row(){
+        let box = document.getElementById("canva");
+        let canva_d = box.getContext("2d");
+        
+       canva_d.font = "50px cursive";
+       canva_d.fillStyle = "red";
+       canva_d.textAlign = "center";
+       canva_d.border = "1px solid green"
+       canva_d.fillText("hello world", 140,70);
+
+        // canva.fillStyle = "rgb(255,0,0)";
+        // canva.fillRect(10,10,100,100);
+
+        // // window.onload=  function draw(){
+        // // let box = document.getElementById("canva");
+        // // let canva = box.getContext("2d");
+        // canva.fillStyle = "rgb(255,110,0)";
+        // canva.fillRect(20,20,80,80);
+     
+        // canva.fillStyle = "rgb(255,210,210)";
+        // canva.fillRect(30,30,60,60);
+    //     canva.fillStyle = "rgba(250,0,0,0.9)";
+    //    canva.arc  (60,60,50,0,2 * Math.PI);
+    //    canva.stroke();
+    //    canva.fill();
+
+    //    let g_color = canva.createRadialGradient(70,50,5,85,150,180);
+    //    g_color.addColorStop(0,"red");
+    //    g_color.addColorStop(0.2,"purple");
+    //    g_color.addColorStop(1,"white");
+
+    //    canva.fillStyle = g_color;
+    //    canva.fillRect(20,20,110,110);
+
+
+    // };
+    
+    
+        
+
+    </script>
+</body>
+</html>

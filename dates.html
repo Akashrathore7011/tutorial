@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="time">
+
+    </div>
+    <button onclick ="click()">click here</button>
+    <script>
+    //  let a = new Date(2011,11,15,10,33,23,0 );
+    // // document.getElementById("time").innerHTML = a;
+    // document.write(a);
+
+     let a = new Date();
+    mydiv =  document.getElementById("time")
+   mydiv.innerHTML = a.getUTCFullYear();
+
+   document.getElementById("time").innerHTML = Math.sqrt(64);
+   document.getElementById("time").innerHTML = Math.trunc(4.7);
+   function click(){
+   document.getElementById("time").innerHTML = Math.floor(Math.random()*100)+1;}
+
+
+    </script>
+    
+
+
+<!-- 
+    <script>
+        var d = new Date(2018, 11, 24, 10, 33, 30, 0);
+        document.getElementById("demo").innerHTML = d;
+        </script> -->
+
+</body>
+</html>
